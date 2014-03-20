@@ -66,9 +66,9 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
         <java.version>1.6</java.version>
-        <android.version>4.1.1.4</android.version>
-        <android.platform>16</android.platform>
-        <android.support.version>r7</android.support.version>
+        <android.version>4.4.2_r2</android.version>
+        <android.platform>19</android.platform>
+        <android.support.version>19.0.1</android.support.version>
 
         <android-maven.version>3.6.0</android-maven.version>
     </properties>
@@ -95,7 +95,7 @@
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-compiler-plugin</artifactId>
-                    <version>2.3.2</version>
+                    <version>3.1</version>
                     <configuration>
                         <source>${java.version}</source>
                         <target>${java.version}</target>
@@ -130,7 +130,6 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-release-plugin</artifactId>
-                <version>2.1</version>
                 <configuration>
                     <autoVersionSubmodules>true</autoVersionSubmodules>
                 </configuration>
